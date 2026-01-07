@@ -18,8 +18,8 @@
 
 
 Name:           spec-cleaner
-Version:        1.2.4+2
-Release:        0
+Version:        1.3.4+2
+Release:        1
 Summary:        .spec file cleaner
 License:        BSD-3-Clause
 URL:            https://github.com/rpm-software-management/spec-cleaner
@@ -94,3 +94,6 @@ python3 -m pytest -k "not ($donttest)" tests/*-tests.py
 %{_prefix}/lib/obs/service/format_spec_file.service
 
 %changelog
+* Wed Jan 07 2026 Philippe Coval <philippe.coval@vates.tech> 1.3.4+2-1
+- new package built with tito
+
